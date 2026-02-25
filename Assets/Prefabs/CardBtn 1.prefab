@@ -33,10 +33,10 @@ RectTransform:
   m_Father: {fileID: 4589397930689480629}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.247, y: -0.1191}
-  m_SizeDelta: {x: 50.1669, y: 62.2926}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3400805412520895386
 CanvasRenderer:
@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 4589397930689480630}
   - component: {fileID: 4589397930689480631}
   - component: {fileID: 4589397930689480628}
+  - component: {fileID: 6883152534205144256}
   m_Layer: 5
   m_Name: CardBtn 1
   m_TagString: Untagged
@@ -198,3 +199,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6883152534205144256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589397930689480650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be867d4c63e37ec42a293af164ed331a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardImage: {fileID: 4589397930689480631}
+  fruitImage: {fileID: 5239720422903051718}
+  button: {fileID: 4589397930689480628}
